@@ -5,7 +5,7 @@ FROM kaixhin/cuda-torch
 ADD install_all.sh /root/install_all.sh 
 ADD thpp_build.sh /root/thpp_build.sh 
  
-WORKDIR /root
+WORKDIR /root 
 RUN chmod +x ./install_all.sh
 RUN ./install_all.sh
 
