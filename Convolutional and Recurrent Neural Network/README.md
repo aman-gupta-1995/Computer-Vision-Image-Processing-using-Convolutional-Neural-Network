@@ -19,7 +19,7 @@ A demo program can be found in ``src/demo.lua``. Before running the demo, downlo
     th demo.lua
 
 The demo reads an example image and recognizes its text content.
-
+ 
 Example image:
 ![Example Image](./data/demo.png)
 
