@@ -24,7 +24,7 @@ Example image:
 ![Example Image](./data/demo.png)
 
 Expected output:
-
+ 
     Loading model...
     Model loaded from ../model/crnn_demo/model.t7
     Recognized text: available (raw: a-----v--a-i-l-a-bb-l-e---)
