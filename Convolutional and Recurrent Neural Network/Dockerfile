@@ -3,7 +3,7 @@ FROM kaixhin/cuda-torch
   
 # Install fblualib and its dependencies : 
 ADD install_all.sh /root/install_all.sh   
-ADD thpp_build.sh /root/thpp_build.sh 
+ADD thpp_build.sh /root/thpp_build.sh  
  
 WORKDIR /root 
 RUN chmod +x ./install_all.sh
