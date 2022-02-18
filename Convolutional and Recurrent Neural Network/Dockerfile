@@ -1,4 +1,4 @@
-# Start with a base docker image that contains torch and cutorch.
+# Start with a base docker image that contains torch and cutorch. 
 FROM kaixhin/cuda-torch 
   
 # Install fblualib and its dependencies : 
