@@ -4,7 +4,7 @@ import cv2
 import numpy as np  
 
 
-def checkImageIsValid(imageBin): 
+def checkImageIsValid(imageBin):  
     if imageBin is None: 
         return False
     imageBuf = np.fromstring(imageBin, dtype=np.uint8)
