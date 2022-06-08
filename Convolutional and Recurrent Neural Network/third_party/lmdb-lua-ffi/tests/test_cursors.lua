@@ -1,7 +1,7 @@
 describe("LMDB cursors", function()
     local os = require 'os'
     local lmdb = require 'lmdb'
-    local utils = require 'utils'
+    local utils = require 'utils' 
     local dump = utils.dump
     local testdb = './db/test-10k'
     local env, msg = nil
