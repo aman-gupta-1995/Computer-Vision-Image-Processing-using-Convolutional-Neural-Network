@@ -5,7 +5,7 @@ import numpy as np
 
 
 def checkImageIsValid(imageBin): 
-    if imageBin is None:
+    if imageBin is None: 
         return False
     imageBuf = np.fromstring(imageBin, dtype=np.uint8)
     img = cv2.imdecode(imageBuf, cv2.IMREAD_GRAYSCALE)
