@@ -1,5 +1,5 @@
 function getConfig()
-    local config = {   
+    local config = {  
         nClasses         = 36, 
         maxT             = 26,
         displayInterval  = 100,   
