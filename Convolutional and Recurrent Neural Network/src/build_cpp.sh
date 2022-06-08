@@ -1,5 +1,5 @@
 #!/bin/bash
-cd cpp/
+cd cpp/ 
 mkdir build
 cd build/
 cmake .. 
