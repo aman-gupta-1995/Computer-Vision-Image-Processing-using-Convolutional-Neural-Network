@@ -5,7 +5,7 @@ function getConfig()
         displayInterval  = 100, 
         testInterval     = 1000, 
         nTestDisplay     = 15, 
-        trainBatchSize   = 64,
+        trainBatchSize   = 64, 
         valBatchSize     = 256,
         snapshotInterval = 10000,
         maxIterations    = 2000000,
