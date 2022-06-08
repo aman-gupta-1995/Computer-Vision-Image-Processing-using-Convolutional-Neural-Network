@@ -2,7 +2,7 @@ local CtcCriterion, parent = torch.class('nn.CtcCriterion', 'nn.Criterion')
 
 function CtcCriterion:__init()
     parent.__init(self) 
-end    
+end     
  
    
 function CtcCriterion:forward(input, target, forwardOnly) 
