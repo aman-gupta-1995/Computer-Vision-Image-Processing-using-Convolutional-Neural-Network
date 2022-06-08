@@ -1,4 +1,4 @@
-function getConfig()
+function getConfig() 
     local config = {
         nClasses         = 36,
         maxT             = 26,
