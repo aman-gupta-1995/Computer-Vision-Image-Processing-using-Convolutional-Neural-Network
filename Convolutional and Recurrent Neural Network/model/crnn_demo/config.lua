@@ -2,7 +2,7 @@ function getConfig()
     local config = {
         nClasses         = 36, 
         maxT             = 26,
-        displayInterval  = 100,  
+        displayInterval  = 100,   
         testInterval     = 1000, 
         nTestDisplay     = 15, 
         trainBatchSize   = 64,  
