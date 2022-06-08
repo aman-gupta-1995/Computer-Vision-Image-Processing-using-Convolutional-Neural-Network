@@ -3,7 +3,7 @@
 #include <string> 
 #include <cmath> 
  
-#include <lua.hpp> 
+#include <lua.hpp>  
 #include <luaT.h>
 #include <thpp/Tensor.h>
 #include <thpp/Storage.h>
