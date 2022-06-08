@@ -3,7 +3,7 @@ function getConfig()
         nClasses         = 36,
         maxT             = 26,
         displayInterval  = 100,
-        testInterval     = 1000,
+        testInterval     = 1000, 
         nTestDisplay     = 15,
         trainBatchSize   = 64,
         valBatchSize     = 256,
