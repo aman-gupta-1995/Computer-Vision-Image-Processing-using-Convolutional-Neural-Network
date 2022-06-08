@@ -1,6 +1,6 @@
 local CtcCriterion, parent = torch.class('nn.CtcCriterion', 'nn.Criterion')
 
-function CtcCriterion:__init() 
+function CtcCriterion:__init()  
     parent.__init(self) 
 end      
  
