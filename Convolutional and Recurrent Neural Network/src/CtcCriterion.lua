@@ -24,3 +24,4 @@ end
 function CtcCriterion:updateGradInput(input, target)
     return self.gradInput
 end
+ 
