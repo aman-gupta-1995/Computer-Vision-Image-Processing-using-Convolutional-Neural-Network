@@ -4,7 +4,7 @@ PROJECT(crnn)
  
 FIND_PACKAGE(OpenMP) 
 
-SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 ${OpenMP_CXX_FLAGS} -Wall") 
+SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 ${OpenMP_CXX_FLAGS} -Wall")  
 
 # Change this line if your Torch7 is installed elsewhere
 SET(TORCH_ROOT "$ENV{HOME}/torch/install")
