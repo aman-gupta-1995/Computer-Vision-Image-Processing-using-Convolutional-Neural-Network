@@ -5,7 +5,7 @@ function CtcCriterion:__init()
 end    
  
   
-function CtcCriterion:forward(input, target, forwardOnly)
+function CtcCriterion:forward(input, target, forwardOnly) 
     forwardOnly = forwardOnly or false
     return self:updateOutput(input, target, forwardOnly)
 end
