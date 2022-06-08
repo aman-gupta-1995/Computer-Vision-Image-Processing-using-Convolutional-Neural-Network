@@ -79,5 +79,5 @@ function createModel(config)
     model:cuda()
     local criterion = nn.CtcCriterion()
 
-    return model, criterion
+    return model, criterion 
 end
