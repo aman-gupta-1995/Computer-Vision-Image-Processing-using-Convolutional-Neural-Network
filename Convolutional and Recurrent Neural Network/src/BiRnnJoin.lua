@@ -6,7 +6,7 @@ function makeBiRnnJoinUnit(nIn, nOut)
     local bwdProj = nn.Linear(nIn, nOut)(bwdX) 
   
     local output = nn.CAddTable()({fwdProj, bwdProj}) 
-    local outputs = {output}
+    local outputs = {output} 
 
     return nn.gModule(inputs, outputs)
 end
