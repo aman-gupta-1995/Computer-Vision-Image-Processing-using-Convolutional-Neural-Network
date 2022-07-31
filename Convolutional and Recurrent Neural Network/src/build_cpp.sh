@@ -1,6 +1,6 @@
 #!/bin/bash
 cd cpp/ 
-mkdir build 
+mkdir build  
 cd build/      
 cmake ..  
 make   
