@@ -22,7 +22,7 @@ function createModel(config)
     local nc = config.nClasses
     local nl = nc + 1
     local nt = config.maxT
-
+ 
     local ks = {3, 3, 3, 3, 3, 3, 2}
     local ps = {1, 1, 1, 1, 1, 1, 0}
     local ss = {1, 1, 1, 1, 1, 1, 1} 
