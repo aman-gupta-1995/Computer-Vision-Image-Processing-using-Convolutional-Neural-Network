@@ -1,5 +1,5 @@
 function makeBiRnnJoinUnit(nIn, nOut)
-    local fwdX, bwdX = nn.Identity()(), nn.Identity()() 
+    local fwdX, bwdX = nn.Identity()(), nn.Identity()()  
     local inputs = {fwdX, bwdX} 
 
     local fwdProj = nn.Linear(nIn, nOut)(fwdX) 
