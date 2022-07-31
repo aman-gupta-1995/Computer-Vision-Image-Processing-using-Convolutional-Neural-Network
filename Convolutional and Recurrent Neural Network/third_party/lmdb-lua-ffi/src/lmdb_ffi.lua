@@ -1,6 +1,6 @@
 local ffi = require "ffi"
 
-ffi.cdef[[
+ffi.cdef[[ 
 
 /* missing types */
 typedef uint16_t mode_t;
