@@ -29,7 +29,7 @@ end
 
 function BiRnnJoin:type(type)
     assert(#self.clones == 0, 'Function type() should not be called after cloning.')
-    self.joinUnit:type(type)
+    self.joinUnit:type(type) 
     return self
 end
 
