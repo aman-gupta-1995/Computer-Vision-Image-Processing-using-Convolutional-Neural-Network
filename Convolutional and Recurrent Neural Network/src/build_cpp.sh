@@ -1,7 +1,7 @@
 #!/bin/bash
 cd cpp/ 
 mkdir build  
-cd build/       
+cd build/        
 cmake ..   
 make   
 cp *.so ../../
