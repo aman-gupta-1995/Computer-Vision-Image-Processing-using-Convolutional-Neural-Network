@@ -2,6 +2,6 @@
 cd cpp/ 
 mkdir build  
 cd build/      
-cmake ..  
+cmake ..   
 make   
 cp *.so ../../
