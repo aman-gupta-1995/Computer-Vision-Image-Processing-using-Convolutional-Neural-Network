@@ -25,7 +25,7 @@ function createModel(config)
 
     local ks = {3, 3, 3, 3, 3, 3, 2}
     local ps = {1, 1, 1, 1, 1, 1, 0}
-    local ss = {1, 1, 1, 1, 1, 1, 1}
+    local ss = {1, 1, 1, 1, 1, 1, 1} 
     local nm = {64, 128, 256, 256, 512, 512, 512}
     local nh = {256, 256}
 
