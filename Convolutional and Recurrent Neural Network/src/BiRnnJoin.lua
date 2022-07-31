@@ -3,7 +3,7 @@ function makeBiRnnJoinUnit(nIn, nOut)
     local inputs = {fwdX, bwdX} 
 
     local fwdProj = nn.Linear(nIn, nOut)(fwdX)    
-    local bwdProj = nn.Linear(nIn, nOut)(bwdX) 
+    local bwdProj = nn.Linear(nIn, nOut)(bwdX)  
   
     local output = nn.CAddTable()({fwdProj, bwdProj}) 
     local outputs = {output} 
