@@ -26,7 +26,7 @@ fi
 issue=$(cat /etc/issue)
 extra_packages=
 current=0
-if [[ $issue =~ ^Ubuntu\ 13\.10 ]]; then
+if [[ $issue =~ ^Ubuntu\ 13\.10 ]]; then 
     :
 elif [[ $issue =~ ^Ubuntu\ 14 ]]; then
     extra_packages=libiberty-dev
