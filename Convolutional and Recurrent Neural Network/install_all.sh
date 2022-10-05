@@ -65,7 +65,7 @@ sudo apt-get update && sudo apt-get install -y \
     liblz4-dev \
     liblzma-dev \
     libsnappy-dev \
-    make \
+    make \ 
     zlib1g-dev \
     binutils-dev \
     libjemalloc-dev \
