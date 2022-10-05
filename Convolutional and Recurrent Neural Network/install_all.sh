@@ -32,7 +32,7 @@ elif [[ $issue =~ ^Ubuntu\ 14 ]]; then
     extra_packages=libiberty-dev
 elif [[ $issue =~ ^Ubuntu\ 15\.04 ]]; then
     extra_packages=libiberty-dev
-elif [[ $issue =~ ^Ubuntu\ 16\.04 ]]; then
+elif [[ $issue =~ ^Ubuntu\ 16\.04 ]]; then 
     extra_packages=libiberty-dev
     current=1
 else
