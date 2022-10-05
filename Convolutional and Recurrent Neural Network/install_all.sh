@@ -121,7 +121,7 @@ if [ $current -eq 1 ]; then
     sudo make install
 fi
 
-echo
+echo 
 echo Building fbthrift
 echo
 
