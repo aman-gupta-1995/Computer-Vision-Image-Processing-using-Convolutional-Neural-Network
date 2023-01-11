@@ -29,7 +29,7 @@ def createDataset(outputPath, imagePathList, labelList, lexiconList=None, checkV
         outputPath    : LMDB output path
         imagePathList : list of image path
         labelList     : list of corresponding groundtruth texts
-        lexiconList   : (optional) list of lexicon lists
+        lexiconList   : (optional) list of lexicon lists 
         checkValid    : if true, check the validity of every image
     """
     assert(len(imagePathList) == len(labelList))
