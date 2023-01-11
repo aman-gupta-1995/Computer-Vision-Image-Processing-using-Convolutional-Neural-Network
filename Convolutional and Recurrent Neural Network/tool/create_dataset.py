@@ -70,3 +70,4 @@ def createDataset(outputPath, imagePathList, labelList, lexiconList=None, checkV
 
 if __name__ == '__main__':
     pass
+ 
