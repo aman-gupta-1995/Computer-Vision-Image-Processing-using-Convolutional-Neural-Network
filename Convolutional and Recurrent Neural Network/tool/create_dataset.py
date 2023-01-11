@@ -65,7 +65,7 @@ def createDataset(outputPath, imagePathList, labelList, lexiconList=None, checkV
     nSamples = cnt-1
     cache['num-samples'] = str(nSamples)
     writeCache(env, cache)
-    print('Created dataset with %d samples' % nSamples)
+    print('Created dataset with %d samples' % nSamples) 
 
 
 if __name__ == '__main__':
